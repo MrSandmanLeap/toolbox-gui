@@ -12,7 +12,9 @@ export function Sidebar({ className }: SidebarProps) {
   return (
     <div className={cn("w-60 bg-mint-50 border-r min-h-screen p-4", className)}>
       <div className="flex items-center gap-2 mb-8">
-        <div className="text-mint-500 font-bold text-2xl">AI STABILITY</div>
+        <div className="text-mint-500 font-bold text-2xl">
+          <img src="public/ai-stability-logo-dark.svg" alt="Logo" className="w-full p-4" />
+        </div>
       </div>
       
       <nav className="space-y-2">

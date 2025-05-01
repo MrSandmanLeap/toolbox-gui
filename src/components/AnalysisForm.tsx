@@ -31,7 +31,7 @@ export function AnalysisForm() {
           
           <div className="space-y-2">
             <div className="flex items-center gap-2">
-              <Label>Start Frequency (Start [hz])</Label>
+              <Label>Start Frequency [hz]</Label>
               <TooltipProvider>
                 <Tooltip>
                   <TooltipTrigger>
